@@ -1,0 +1,10 @@
+# Port
+server:
+  port: 8070
+
+spring:
+  security:
+    user:
+      name: "bankUser"
+      password: "bankUser"
+# Security
