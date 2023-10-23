@@ -2,9 +2,20 @@
 server:
   port: 8070
 
+
 spring:
+  # Database
+  datasource:
+    url: jdbc:postgresql://bank-db-instance.cg0u8vuuh4dj.eu-north-1.rds.amazonaws.com:5432/bankdb
+    username: postgres
+    password: LiM88.PnmavbB333
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  # Security
   security:
     user:
       name: "bankUser"
       password: "bankUser"
-# Security
